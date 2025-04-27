@@ -37,8 +37,8 @@ test_path = os.path.join("images", "test")
 # Loading the raw images using the provided function. Hint: Use the provided load_digit_images_from_folder function that outputs X_train, Y_train for train_path and
 # as X_test, Y_test for test_path
 # --> add your Python code here
-X_train, Y_train = load_digit_images_from_folder("test")
-X_test, Y_test = load_digit_images_from_folder("train")
+X_train, Y_train = load_digit_images_from_folder("train")
+X_test, Y_test = load_digit_images_from_folder("test")
 
 # Normalizing the data: convert pixel values from range [0, 255] to [0, 1]. Hint: divide them by 255
 # --> add your Python code here
